@@ -1,0 +1,16 @@
+<h1>{{ nombre | miPipePersonalizado }}</h1>
+<h2>Fecha de hoy: {{ fecha | date : "short" }}</h2>
+<button type="button" (click)="saludar()">Saludar</button>
+<button type="button" (click)="preguntar()">Preguntar por hijo</button>
+<!-- <h1>Contador:</h1>
+<p>{{ valorContador }}</p>
+<button (click)="incrementar()">Incrementar</button>
+<button (click)="decrementar()">Decrementar</button>
+
+<h5>El mensaje enviado desde el hijo es: {{ mensajeRecibido }}</h5>
+<app-hijo
+  [recibeHijo]="mensajePadre"
+  (mensajeDesdeHijo)="recibirMensaje($event)"
+/> -->
+<!-- La primer propiedad es lo que le manda el padre al hijo -->
+<!-- La segunda propiedad es lo que manda el hijo al padre, con el event lee lo que mando -->
